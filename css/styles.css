@@ -1,6 +1,60 @@
 body{
-    font-family: 'Bebas Neue', cursive;
-}
-P{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    
+}
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+    
+    color: #363958;
+    font-weight: 500;
+}
+
+img{
+    width: 100%;
+}
+p{
+    font-size: 1rem;
+}
+section{
+    height: 500px;
+}
+
+.top-section{
+   
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+
+.color-highlight{
+    color: #F46060;
+}
+.link-button{
+    color: white;
+    background-color: #FF8063;
+    padding: 10px 20px 10px 20px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.big-font{
+    font-size: 5rem;
+}
+
+.big-medium-font{
+    font-size: 3rem;
+}
+
+.medium-font{
+    font-size: 1.5rem;
+}
+.one-third-width{
+    width: 30%;
+    float: left;
+}
+footer p{
+    font-size: 2rem;
 }
