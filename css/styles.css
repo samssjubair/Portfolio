@@ -168,18 +168,25 @@ footer img{
     
     margin-top: 25px;
 }
+.same-line{
+    width: 35%;
+    float: left;
+    display: inline;
+    
+}
 
 #inquiry-text{
     
     padding-top: 35px;
     padding-left: 100px;
-    display: inline-block;
+    
 }
 
 #inquiry-button{
-    margin-left: 700px;
+    margin-top: 90px;
+    margin-left: 120px;
 }
-.same-line{
-    width: 100%;
-    float: left;
+#extra-padding{
+    margin-left: 120px;
 }
+   
