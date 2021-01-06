@@ -127,16 +127,21 @@ footer img{
 }
 
 .inquiry-section{
-    height: 400px;
-    width: 100%;
-    background-image: url("images/bg.png");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-position: left;
-    position: relative;
-    border: 1px solid black;
-    background-size: 300px 100px cover;
+    height: 200px;
+    width: 70%;
+    background-image: url("../images/bg.png");
     
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto 0 auto;
+    
+    margin-bottom: 100px;
+    
+    background-size: contain;
+    
+}
+.inquiry-section h1{
+    color: white;
 }
 .working-section img{
     width: 100%;
@@ -162,4 +167,19 @@ footer img{
 .link-button img{
     
     margin-top: 25px;
+}
+
+#inquiry-text{
+    
+    padding-top: 35px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+#inquiry-button{
+    margin-left: 700px;
+}
+.same-line{
+    width: 100%;
+    float: left;
 }
