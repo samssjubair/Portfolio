@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
+    
 }
 h1,h2,h3{
     font-family: 'Bebas Neue', cursive;
@@ -10,7 +11,7 @@ h1,h2,h3{
     margin-bottom: 20px;
 }
 
-img{
+.decent-img{
     width: 80%;
 }
 p{
@@ -118,9 +119,6 @@ footer img{
     margin-left: 80px;
 }
 
-.one-third-width img{
-    margin-left: 28px;
-}
 
 .footer-icon{
     padding-right: 1rem;
@@ -129,5 +127,39 @@ footer img{
 }
 
 .inquiry-section{
-    background-image: url("images/inquiry.png") no-repeat;
+    height: 400px;
+    width: 100%;
+    background-image: url("images/bg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    border: 1px solid black;
+    background-size: 300px 100px cover;
+    
+}
+.working-section img{
+    width: 100%;
+}
+.blog-section{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    margin-bottom: 150px;
+}
+.blog-section img{
+    border: 4px solid black;
+}
+
+.about-section{
+    height: 400px;
+}
+
+.about-section h2{
+    margin-top: 70px;
+}
+
+.link-button img{
+    
+    margin-top: 25px;
 }
